@@ -1,7 +1,7 @@
 {
   "name": "is-options",
   "version": "1.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Easily check if input is an options map",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
