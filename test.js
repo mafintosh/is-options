@@ -1,5 +1,5 @@
 const tape = require('tape')
-const isOptions = require('is-options')
+const isOptions = require('./')
 
 tape('works', function (t) {
   t.ok(isOptions({}))
