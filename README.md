@@ -6,6 +6,8 @@ Easily check if input is an options map
 npm install is-options
 ```
 
+[![Build Status](https://travis-ci.org/mafintosh/is-options.svg?branch=master)](https://travis-ci.org/mafintosh/is-options)
+
 ## Usage
 
 ``` js
