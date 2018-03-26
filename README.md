@@ -18,7 +18,7 @@ thing({foo: true}) // key=undefined, opts={foo: true}
 thing(Buffer.from('buf'), {foo: true}) // key=Buffer('buf'), opts={foo: true}
 
 function thing (optionalKey, opts) {
-  if (isOptions(optionalKey) {
+  if (isOptions(optionalKey)) {
     opts = optionalKey
     optionalKey = undefined
   }
