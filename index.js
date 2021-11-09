@@ -1,5 +1,5 @@
-module.exports = isOptions
+const b4a = require('b4a')
 
-function isOptions (opts) {
-  return typeof opts === 'object' && opts && !Buffer.isBuffer(opts)
+module.exports = function isOptions (opts) {
+  return typeof opts === 'object' && opts && !b4a.isBuffer(opts)
 }
