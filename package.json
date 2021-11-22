@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Easily check if input is an options map",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "b4a": "^1.1.1"
+  },
   "devDependencies": {
     "standard": "^11.0.1",
     "tape": "^4.9.0"
